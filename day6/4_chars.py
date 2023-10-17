@@ -3,7 +3,7 @@ index = 0
 
 for part, i in enumerate([4, 14], 1):
     for j, _ in enumerate(range(len(string))):
-        sub_string = string[j:j+i]
+        sub_string = string[j : j + i]
         length = len(set(sub_string))
         if length == i:
             index = j
